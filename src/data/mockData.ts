@@ -181,46 +181,6 @@ export const INDUSTRIES_DATA: IndustryItem[] = [
     solutions: ['ABDM & FHIR Integration', 'AI Medical Diagnostic Copilots', 'HIPAA & DPDP Compliant Cloud', 'Patient Telemetry IoT', 'Clinical Trial Analytics'],
     impactMetric: 'Over 3.2M patient records handled with 0 security incidents',
     activeClients: 18
-  },
-  {
-    id: 'telecom',
-    name: 'Telecom & 5G Connectivity',
-    tagline: 'Carrier-grade distributed infrastructure',
-    description: 'Supporting Tier-1 telecom providers with 5G orchestration platforms, real-time CDR streaming analytics, OSS/BSS digital transformations, and edge computing architectures.',
-    icon: 'Radio',
-    solutions: ['5G Network Slicing Management', 'Real-time Streaming Analytics', 'OSS/BSS Modernization', 'Self-service Customer Portals', 'Edge AI Inference'],
-    impactMetric: '25M+ daily events processed with sub-second latency',
-    activeClients: 12
-  },
-  {
-    id: 'retail',
-    name: 'Retail & Quick Commerce',
-    tagline: 'High-conversion omnichannel commerce',
-    description: 'Modernizing retail with headless architecture, ONDC network integrations, smart warehouse forecasting, real-time visual search, and frictionless UPI checkout flows.',
-    icon: 'ShoppingBag',
-    solutions: ['Headless eCommerce & ONDC Integration', 'AI Personalized Recommendations', 'Supply Chain Visibility', 'Dynamic Pricing Engines', 'Mobile POS & UPI Integration'],
-    impactMetric: '+40% average conversion lift across retail deployments',
-    activeClients: 20
-  },
-  {
-    id: 'saas',
-    name: 'High-Tech SaaS & Cloud',
-    tagline: 'Multi-tenant scale from India to the world',
-    description: 'Accelerating venture-backed and enterprise SaaS companies with multi-tenant architectures, usage-based billing, enterprise SSO, and autonomous AI features.',
-    icon: 'Layers',
-    solutions: ['Multi-tenant Cloud Architecture', 'Stripe & Razorpay Billing Engines', 'SAML/SSO & RBAC', 'AI Feature Integration', 'Automated DevOps & CI/CD'],
-    impactMetric: 'Zero downtime achieved across 18 SaaS enterprise migrations',
-    activeClients: 28
-  },
-  {
-    id: 'energy',
-    name: 'Energy & Smart Utilities',
-    tagline: 'IoT monitoring and green tech systems',
-    description: 'Engineering smart grid monitoring, predictive maintenance for solar and renewable energy parks, and real-time power distribution analytics for modern utility providers.',
-    icon: 'Zap',
-    solutions: ['Smart Grid IoT Telemetry', 'Predictive Equipment Maintenance', 'Carbon Tracking Dashboards', 'Renewable Asset Analytics', 'SCADA Modernization'],
-    impactMetric: '6.2GW of clean energy monitored across client assets',
-    activeClients: 11
   }
 ];
 

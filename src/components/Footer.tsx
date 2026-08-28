@@ -51,16 +51,14 @@ export const Footer: React.FC<FooterProps> = ({ onOpenPrivacy, onOpenTerms }) =>
             </ul>
           </div>
 
-          {/* Industries */}
+          {/* Industries & Domains */}
           <div className="space-y-3">
-            <h4 className="font-bold text-white uppercase tracking-wider text-[11px]">Industries</h4>
+            <h4 className="font-bold text-white uppercase tracking-wider text-[11px]">Core Domains</h4>
             <ul className="space-y-2">
-              <li><button onClick={() => scrollTo('industries')} className="hover:text-white transition-colors cursor-pointer">FinTech & Banking</button></li>
+              <li><button onClick={() => scrollTo('industries')} className="hover:text-white transition-colors cursor-pointer">FinTech & Financial Services</button></li>
               <li><button onClick={() => scrollTo('industries')} className="hover:text-white transition-colors cursor-pointer">HealthTech & ABDM</button></li>
-              <li><button onClick={() => scrollTo('industries')} className="hover:text-white transition-colors cursor-pointer">Telecom & 5G</button></li>
-              <li><button onClick={() => scrollTo('industries')} className="hover:text-white transition-colors cursor-pointer">Retail & Quick Commerce</button></li>
-              <li><button onClick={() => scrollTo('industries')} className="hover:text-white transition-colors cursor-pointer">High-Tech SaaS</button></li>
-              <li><button onClick={() => scrollTo('industries')} className="hover:text-white transition-colors cursor-pointer">Energy & Smart IoT</button></li>
+              <li><button onClick={() => scrollTo('services')} className="hover:text-white transition-colors cursor-pointer">Enterprise Cloud Systems</button></li>
+              <li><button onClick={() => scrollTo('services')} className="hover:text-white transition-colors cursor-pointer">AI & Intelligent Automation</button></li>
             </ul>
           </div>
 
